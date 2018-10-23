@@ -1,3 +1,5 @@
 camera_cal/
 test_images/
 .ipynb_checkpoints/
+test_videos/
+test_videos_output/
