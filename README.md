@@ -6,7 +6,7 @@
 Overview
 ---
 
-In this project, the goal is to write a software pipeline to identify the lane boundaries in a video from a front-facing camera on a car. There are some advanced computer vision methods will be implemented in this project, such as camera calibration, sobel edge thresholding, color space converting thresholding, perspective transform, etc.
+In this project, the goal is to write a software pipeline to identify the lane boundaries in a video from a front-facing camera on a car. There are some advanced computer vision methods will be implemented in this project, such as camera calibration, gradients thresholding, color space converting thresholding, perspective transform, etc.
 
 **For more tech details, please read through [writeup.md](writeup.md) file**
 
