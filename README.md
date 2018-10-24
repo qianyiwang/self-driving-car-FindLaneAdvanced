@@ -1,7 +1,7 @@
 # **Finding Lane Lines on the Road** 
 
-<img src="test_images_output/test3_fit.jpg" width="380" alt="Result Image" />
-<img src="test_images_output/test3.jpg" width="380" alt="Result Image" />
+<img src="test_images_output/test3_fit.jpg" width="480" alt="Result Image" />
+<img src="test_images_output/test3.jpg" width="480" alt="Result Image" />
 
 Overview
 ---
