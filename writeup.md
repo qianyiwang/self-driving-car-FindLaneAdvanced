@@ -27,8 +27,8 @@
 ### [Test Images Results](test_images_output)
 **example**
 
-<img src="test_images_output/test3_fit.jpg" width="480" alt="Result Image" align="middle"/>
-<img src="test_images_output/test3.jpg" width="480" alt="Result Image" align="middle"/>
+<img src="test_images_output/test3_fit.jpg" width="480" alt="Result Image" />
+<img src="test_images_output/test3.jpg" width="480" alt="Result Image" />
 
 ### [Project Video Output](https://youtu.be/lNBVuSydREM)
 
