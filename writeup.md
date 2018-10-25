@@ -92,3 +92,14 @@ One shortcoming in my current work is the 4 corners selection before perspective
 ## 3. Suggest possible improvements to your pipeline
 
 A possible improvement would be using hough transfer to find the line, extend the line until ROI and use the start and end point of the extended line as corners. 
+
+I could also explore other color spaces such as YUV, LAB, checking which color channels shows the lanes best and add those to your combined binary. For instance, the H channel in HLS remain quite constant with changes in luminosity, something that might help in the harder challenge video.
+
+The curvature can also be used for sanity checking as both lanes should be roughly the same, i.e:
+
+sanity = 2 > left_curverad / right_curverad > 0.5
+
+I can use the position of the lanes at the bottom of the screen to calculate the lane width in pixels for an even more precise meter per pixel ratio.
+
+lane_width = right_fitx[-1] - left_fitx[-1]
+xm_per_pix = 3.7 / lane_width
